@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transformaciones</title>
+    <style type="text/css">
+    
+    
+        *{
+            
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+            
+            div{
+                 width: 200px;
+                height: 200px;
+                
+                
+                
+            }
+        p{
+            
+            
+            font-size: 3em;
+        }
+            
+        .rotar{
+            
+        background-color: aquamarine;
+            transform: rotate(35deg);
+        }
+          .escalar{
+            
+        background-color: bisque;
+              transform: scale(0.3);
+        }
+             .sesgar{
+            
+        background-color: darkgoldenrod;
+                 transform: skewX(22.5deg);
+        }
+           
+                .transladar{
+            
+        background-color: orchid;
+                    transform: translate(300px, -400px);
+                                        transition: 2s 0.3s transform;
+
+                    
+        }
+        .transladar:hover{
+            transform: translate(0,0);
+            
+        }
+            
+        }
+    
+    
+    
+    </style>
+</head>
+<body>
+    <div class="rotar">
+              <p>rotar</p>
+</div>
+        <div class="escalar">
+               <p>escalar</p>
+</div>
+
+        <div class="sesgar">
+                             <p>sesgar</p>
+                             </div>
+
+
+           
+            <div class="transladar">
+       <p>transladar</p>
+
+</div>
+</body>
+</html>
